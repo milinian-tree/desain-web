@@ -1,0 +1,48 @@
+body{
+	width: 960px;
+	margin: 30px auto;
+}
+
+main{
+	display: flex;
+}
+
+.header, .nav, .menu, .content, .extra, .footer{
+	margin-bottom: 6px;
+	padding: 15px 0;
+}
+
+.header{
+	width: 100%;
+	height: auto;
+	background: #99D9EA;
+	color: #fff;
+}
+
+.nav{
+	width: 100%;
+	height: auto;
+	background: #99D9EA;
+}
+
+.menu{
+	width: 20%;
+	background: #FD7E00;
+}
+
+.content{
+	width: 55%;
+	background: #EFE4B0;
+	text-align: justify;
+}
+
+.extra{
+	width: 25%;
+	background: #FD7E00;
+}
+
+.footer{
+	width: 100%;
+	background: #C3C3C3;
+	text-align: center;
+}
